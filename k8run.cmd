@@ -1,5 +1,5 @@
 go mod vendor
 docker -H tcp://127.0.0.1:2375 build --force-rm --tag "renevo/kube-controller:latest" .
 kubectl delete deployments kube-controller-sample
-kubectl run kube-controller-sample --image renevo/kube-controller:latest --image-pull-policy=Never --
+kubectl run kube-controller-sample --image renevo/kube-controller:latest --image-pull-policy=Never -- -namespace=default
 rd /s /q .\vendor

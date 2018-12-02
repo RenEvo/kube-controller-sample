@@ -12,6 +12,7 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
+	github.com/pkg/errors v0.8.0
 	github.com/spf13/pflag v1.0.3 // indirect
 	golang.org/x/crypto v0.0.0-20181127143415-eb0de9b17e85 // indirect
 	golang.org/x/net v0.0.0-20181201002055-351d144fa1fc // indirect
@@ -21,7 +22,7 @@ require (
 	google.golang.org/appengine v1.3.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.2 // indirect
-	k8s.io/api v0.0.0-20181130031204-d04500c8c3dd // indirect
+	k8s.io/api v0.0.0-20181130031204-d04500c8c3dd
 	k8s.io/apimachinery v0.0.0-20181130031032-af2f90f9922d
 	k8s.io/client-go v9.0.0+incompatible
 	k8s.io/klog v0.1.0 // indirect
