@@ -14,4 +14,4 @@ go run main.go -kubeconfig=<userpath>/.kube/config
 ./k8run
 ```
 
-This will build and run the container in k8s, first deleting the existing deployment `kube-controller` in the cluster.
+This will build and run the container in k8s, first deleting the existing deployment `kube-controller-sample` in the cluster.
